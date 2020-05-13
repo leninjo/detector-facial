@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Detector Facial</title>
   <script defer src="face-api.min.js"></script>
   <script defer src="script.js"></script>
   <style>
@@ -24,7 +25,10 @@
   </style>
 </head>
 <body>
-  <h1>Detector Facial</h1>
-  <video id="video" width="720" height="560" autoplay muted></video>
+  <div class="container-fluid">
+    <div class="embed-responsive embed-responsive-16by9">
+      <video id="video" class="video" width="720" height="560" autoplay muted></video>
+    </div>
+  </div>
 </body>
 </html>
